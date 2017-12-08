@@ -15,7 +15,7 @@ body {
 
 header {
   /*background-color: #eef5db;*/
-  padding-left: 60px;
+  padding-left: 40px;
   padding-right: 60px;
   display: flex;
   justify-content: space-between;
@@ -23,8 +23,17 @@ header {
   height: 100px;
 }
 
+#logo {
+  width: 225px;
+  height: 225px;
+  z-index: 10;
+  top: 75px;
+  margin: 0px;
+  position: relative;
+}
+
 h1, h2 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Averia Sans Libre', cursive;
   color: #7a9e9f;
 }
 
@@ -64,35 +73,29 @@ nav li {
   height: 70vh;
 }
 
-.index-main h1, .index-main h2, .index-main h3, .index-main button {
+.index-main h1, .index-main h2, .index-main button {
   position: absolute;
 }
 
-.index-main h1, .index-main h2, .index-main h3 {
+.index-main h1, .index-main h2 {
   width: 100%;
 }
 
 .index-main h1, .index-main h2 {
-  text-shadow: 0px 0px 3px #000000;
+  text-shadow: 0px 0px 5px #000000;
 }
 
 .index-main h1 {
   font-size: 5em;
   margin: 0;
-  top: 20%;
+  top: 30%;
 }
 
 .index-main h2 {
   font-size: 3.5em;
   margin: 0;
-  top: 5%;
+  top: 15%;
   font-weight: bold;
-}
-
-.index-main h3 {
-  bottom: 22%;
-  text-shadow: 0px 0px 1px #000000;
-  font-size: 2.2em;
 }
 
 .index-main button {
@@ -100,7 +103,7 @@ nav li {
   padding: 15px 25px;
   background-color: #fe5f55;
   background-image: linear-gradient(red, #fe5f55);
-  color: #7a9e9f;
+  color: white;
   font-size: 25px;
   font-weight: 100;
   margin-left: -93.565px;
@@ -112,6 +115,10 @@ nav li {
 .index-main button:hover {
   color: #b8d8d8;
   cursor: pointer;
+}
+
+.baseball, .beanies, .helmets {
+  display: flex;
 }
 
 @Media (max-width: 1400px) {
