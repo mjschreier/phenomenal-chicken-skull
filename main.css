@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Permanent+Marker');
+
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Averia Sans Libre', cursive;*/
+
+html {
+  100%;
+}
+
+body {
+  height: 100%;
+  background-color: #4f6367;
+  margin: 0;
+}
+
+header {
+  /*background-color: #eef5db;*/
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
+  color: #7a9e9f;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a9e9f;
+  font-family: 'Averia Sans Libre', cursive;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: #b8d8d8;
+}
+
+nav li {
+  display: inline;
+  padding: 15px;
+}
+
+.index-main {
+  background-image: url("images/hero-image.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 70vh;
+}
+
+.index-main h1, .index-main h2, .index-main h3, .index-main button {
+  position: absolute;
+}
+
+.index-main h1, .index-main h2, .index-main h3 {
+  width: 100%;
+}
+
+.index-main h1, .index-main h2 {
+  text-shadow: 0px 0px 3px #000000;
+}
+
+.index-main h1 {
+  font-size: 5em;
+  margin: 0;
+  top: 20%;
+}
+
+.index-main h2 {
+  font-size: 3.5em;
+  margin: 0;
+  top: 5%;
+  font-weight: bold;
+}
+
+.index-main h3 {
+  bottom: 22%;
+  text-shadow: 0px 0px 1px #000000;
+  font-size: 2.2em;
+}
+
+.index-main button {
+  font-family: 'Averia Sans Libre', cursive;
+  padding: 15px 25px;
+  background-color: #fe5f55;
+  background-image: linear-gradient(red, #fe5f55);
+  color: #7a9e9f;
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: -93.565px;
+  /*Left margin to account for it centering the left pane*/
+  bottom: 7%;
+  box-shadow: 0px 0px 3px #000000;
+}
+
+.index-main button:hover {
+  color: #b8d8d8;
+  cursor: pointer;
+}
+
+@Media (max-width: 1400px) {
+  body {
+    width: 1400px;
+  }
+}
